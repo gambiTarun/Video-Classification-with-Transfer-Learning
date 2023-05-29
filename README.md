@@ -16,7 +16,7 @@ The dataset consists of images and videos for five classes of sport activities: 
 * Pandas
 * scikit-learn
 
-## Instructions
+## Steps
 
 1. Data Exploration and Pre-processing
     - Divide the images into training (70%), validation (15%), and test sets (15%).
