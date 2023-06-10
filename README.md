@@ -19,7 +19,7 @@ The dataset consists of images and videos for five classes of sport activities: 
 ## Steps
 
 1. Data Exploration and Pre-processing
-    - Divide the images into training (70%), validation (15%), and test sets (15%).
+    - Divide the 3280 images into training (70%), validation (15%), and test sets (15%).
     - Zero-pad or resize the images to have the same size.
 
 2. Transfer Learning for Image Classification
@@ -34,7 +34,7 @@ The dataset consists of images and videos for five classes of sport activities: 
     - Reuse the validation and test data to train the network without seriously overfitting it.
     - Apply at least 100 equally spaced frames of each video to the model to obtain probability predictions from the softmax layer.
     - Calculate the average probability vector for each video and select the class with the maximum probability.
-    - Report the Confusion Matrix, Precision, Recall, Accuracy, and F1 score for the model on the test data (videos).
+    - Report the Confusion Matrix, Precision, Recall, Accuracy, and F1 score for the model on the test data (681 videos).
 
 ## License
 
